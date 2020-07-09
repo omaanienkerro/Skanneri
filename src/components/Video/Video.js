@@ -82,14 +82,13 @@ const Video = ({ history }) => {
   return (
     <div>
       <div className="video__explanation">
-        <p>Scan a product&apos;s barcode and get its nutritional values <span role="img" aria-label="apple">🍎</span></p>
+        <p>Skannaa ilman kameraa</p>
       </div>
       <div className="video__container">
         {videoError ?
           <div className="skeleton__unsopported">
             <div>
-              <p>Your device does not support camera access or something went wrong <span role="img" aria-label="thinking-face">🤔</span></p>
-              <p>You can enter the barcode below</p>
+              <p>virhe</p>
               <BarcodeInputField />
             </div>
           </div>

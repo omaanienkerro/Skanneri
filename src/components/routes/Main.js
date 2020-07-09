@@ -10,9 +10,9 @@ const Main = () => (
   <main className="main__wrapper">
     <Switch>
       <Route exact path='/' component={CameraHandler}/>
-      <Route exact path='/product/not-found' component={ProductNotFound} />
-      <Route exact path='/product/:id' component={ProductDisplay}/>
-      <Route exact path='/history' component={HistoryDisplay} />
+      <Route exact path='/tuote/404' component={ProductNotFound} />
+      <Route exact path='/tuote/:id' component={ProductDisplay}/>
+      <Route exact path='/historia' component={HistoryDisplay} />
     </Switch>
   </main>
 );

@@ -16,8 +16,8 @@ const BarcodeInputField = ( props ) => {
 
   return (
     <form onSubmit={onSubmit}>
-      <input placeholder="e.g. 7622300710613" className="textInput" required type="number" onChange={onInputChange}/>
-      <button className="btn" type="submit">Find</button>
+      <input placeholder="EAN" className="textInput" required type="number" onChange={onInputChange}/>
+      <button className="btn" type="submit">Hae</button>
     </form>
   )
 }

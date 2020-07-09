@@ -22,10 +22,11 @@ const ProductDisplay = (props) => {
   }, []);
 
   return (
-    <>
+/*    <>
     {isLoading ? <ProductDisplaySkeleton /> : ""}
     {productInfo !== null ? <ProductDataDisplay data={productInfo}/> : ""}
-    </>
+    </>*/
+  <p>skoodi: {props.match.params.id}</p>
   );
 };
 
